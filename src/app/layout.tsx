@@ -3,6 +3,7 @@ import Header from "@/components/shared/Header";
 import Footer from "@/components/shared/Footer";
 import "./globals.css";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/react";
 
 const roboto = Roboto_Flex({ subsets: ["latin"] });
 
