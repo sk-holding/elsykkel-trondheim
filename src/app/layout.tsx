@@ -4,6 +4,7 @@ import Footer from "@/components/shared/Footer";
 import "./globals.css";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const roboto = Roboto_Flex({ subsets: ["latin"] });
 
