@@ -15,7 +15,7 @@ const featuredBikeQuery = `*[_type == "bikes" && featured] | order(_createdAt de
 }`
 
  const articleQuery = `
-*[_type == "article"] | order(_createdAt desc) {
+*[_type == "article" && trondheim] | order(_createdAt desc) {
   title,
   content,
   "image": image.asset->url,
