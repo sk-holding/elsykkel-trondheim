@@ -18,7 +18,7 @@ export const revalidate = 10;
 const Page = () => {
   return (
     <main className={styles.wrapper}>
-      {/* <Hero /> */}
+      <Hero />
       <Bestsellers />
       <Articles />
       <Stores
