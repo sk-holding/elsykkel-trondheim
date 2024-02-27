@@ -4,7 +4,7 @@ export interface Bike {
     title: string;
     image: string;
     description: string;
-    url: string
+    ew_url: string
 }
 
 export interface Article {
