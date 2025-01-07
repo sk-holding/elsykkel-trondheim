@@ -92,7 +92,7 @@ const Footer = () => {
       <div className={styles.footer}>
         <div className={`${styles.footer_inner} max-width`}>
           <p>
-            ©2023 E-Wheels Norge AS. Alle rettigheter reservert. Org nr.: 913
+            ©2025 E-Wheels Norge AS. Alle rettigheter reservert. Org nr.: 913
             701 380
           </p>
           <ul>
