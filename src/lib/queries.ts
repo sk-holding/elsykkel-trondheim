@@ -5,7 +5,7 @@ const bikeQuery = `*[_type == "bikes"] | order(title asc) {
     "image": image.asset->url,
     ew_url,
     price
-}`
+}`;
 
 const featuredBikeQuery = `*[_type == "bikes" && featured] | order(_createdAt desc) {
     title,
@@ -14,25 +14,25 @@ const featuredBikeQuery = `*[_type == "bikes" && featured] | order(_createdAt de
     "image": image.asset->url,
     ew_url,
     price
-}`
+}`;
 
- const articleQuery = `
+const articleQuery = `
 *[_type == "article" && trondheim] | order(_createdAt desc) {
   title,
   content,
   "image": image.asset->url,
   url,
   buttonText
-}`
+}`;
 
 const storeQuery = `
-*[_type == "stores" && slug.current == "e-wheels-trondheim"] {
+*[_type == "stores" && slug.current == "e-wheels-trondheim" || slug.current == "e-wheels-trondheim-elgeseter"] {
   storeName,
   storeAddress,
   "image": image.asset->url,
   url,
   slug
 }
-`
+`;
 
-export { bikeQuery, articleQuery, storeQuery, featuredBikeQuery }
+export { bikeQuery, articleQuery, storeQuery, featuredBikeQuery };
