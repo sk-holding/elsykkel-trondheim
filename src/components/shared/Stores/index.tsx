@@ -22,14 +22,6 @@ const Stores: React.FC<Store> = (props) => {
         <h3>{props.title}</h3>
         <h4>{props.description}</h4>
       </div>
-      <Map location={props.location} />
-      {props.button ? (
-        <div style={{ margin: "auto" }}>
-          <a href={props.button.href} className="button button_primary">
-            {props.button.content}
-          </a>
-        </div>
-      ) : null}
     </section>
   );
 };

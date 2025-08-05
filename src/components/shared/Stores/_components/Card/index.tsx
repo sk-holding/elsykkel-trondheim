@@ -5,7 +5,9 @@ const Card: React.FC<Store> = (props) => {
   return (
     <a href={props.url}>
       <div className={styles.wrapper}>
-        <img src={props.image} alt={props.storeName} />
+        <div className={styles.imageContainer}>
+          <img src={props.image} alt={props.storeName} />
+        </div>
         <div>
           <p>{props.storeName}</p>
           <p>{props.storeAddress}</p>
