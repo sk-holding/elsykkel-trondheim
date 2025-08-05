@@ -22,7 +22,7 @@ const Page = () => {
       <Article />
       <Stores
         title="E-Mexx Trondheim"
-        description="Vi har verksted i Jomfrugata 17b"
+        description="Vi har verksted i Elgeseter gate 16"
         location={location.verksted}
         button={{
           href: "https://e-mexx.no/verksteder/trondheim/",
